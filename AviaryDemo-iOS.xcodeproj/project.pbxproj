@@ -1,0 +1,533 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		06CD767A16B047030040A783 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06CD767916B047030040A783 /* UIKit.framework */; };
+		06CD767C16B047030040A783 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06CD767B16B047030040A783 /* Foundation.framework */; };
+		06CD767E16B047030040A783 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06CD767D16B047030040A783 /* CoreGraphics.framework */; };
+		06CD768416B047030040A783 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 06CD768216B047030040A783 /* InfoPlist.strings */; };
+		06CD768616B047030040A783 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 06CD768516B047030040A783 /* main.m */; };
+		06CD768A16B047030040A783 /* AFAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 06CD768916B047030040A783 /* AFAppDelegate.m */; };
+		06CD768C16B047030040A783 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 06CD768B16B047030040A783 /* Default.png */; };
+		06CD768E16B047030040A783 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 06CD768D16B047030040A783 /* Default@2x.png */; };
+		06CD769016B047030040A783 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 06CD768F16B047030040A783 /* Default-568h@2x.png */; };
+		06CD76AA16B047E60040A783 /* AFSDKDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 06CD76A916B047E60040A783 /* AFSDKDemoViewController.m */; };
+		06CD76AE16B04ABD0040A783 /* Demo.png in Resources */ = {isa = PBXBuildFile; fileRef = 06CD76AD16B04ABD0040A783 /* Demo.png */; };
+		06CD76B016B04C120040A783 /* AFSDKDemoViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 06CD76AF16B04C120040A783 /* AFSDKDemoViewController_iPhone.xib */; };
+		06CD76B216B04C410040A783 /* AFSDKDemoViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 06CD76B116B04C410040A783 /* AFSDKDemoViewController_iPad.xib */; };
+		06CD770D16B067260040A783 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06CD770C16B067260040A783 /* AssetsLibrary.framework */; };
+		06CD772616B08D930040A783 /* blue_button_pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 06CD771E16B08D930040A783 /* blue_button_pressed.png */; };
+		06CD772716B08D930040A783 /* blue_button_pressed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 06CD771F16B08D930040A783 /* blue_button_pressed@2x.png */; };
+		06CD772816B08D930040A783 /* blue_button.png in Resources */ = {isa = PBXBuildFile; fileRef = 06CD772016B08D930040A783 /* blue_button.png */; };
+		06CD772916B08D930040A783 /* blue_button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 06CD772116B08D930040A783 /* blue_button@2x.png */; };
+		06CD772A16B08D930040A783 /* dark_button_pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 06CD772216B08D930040A783 /* dark_button_pressed.png */; };
+		06CD772B16B08D930040A783 /* dark_button_pressed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 06CD772316B08D930040A783 /* dark_button_pressed@2x.png */; };
+		06CD772C16B08D930040A783 /* dark_button.png in Resources */ = {isa = PBXBuildFile; fileRef = 06CD772416B08D930040A783 /* dark_button.png */; };
+		06CD772D16B08D930040A783 /* dark_button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 06CD772516B08D930040A783 /* dark_button@2x.png */; };
+		06CD772F16B092E80040A783 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06CD772E16B092E80040A783 /* Accelerate.framework */; };
+		06CD773116B092EF0040A783 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06CD773016B092EF0040A783 /* CoreData.framework */; };
+		06CD773316B0930A0040A783 /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 06CD773216B0930A0040A783 /* libsqlite3.0.dylib */; };
+		06CD773516B093110040A783 /* libz.1.2.5.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 06CD773416B093110040A783 /* libz.1.2.5.dylib */; };
+		06CD773716B093190040A783 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06CD773616B093190040A783 /* QuartzCore.framework */; };
+		06CD773916B0931F0040A783 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06CD773816B0931F0040A783 /* StoreKit.framework */; };
+		06CD773B16B093260040A783 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06CD773A16B093250040A783 /* CoreText.framework */; };
+		06CD773D16B0932D0040A783 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06CD773C16B0932D0040A783 /* OpenGLES.framework */; };
+		06CD77BE16B0A6C10040A783 /* libAviarySDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 06CD77BB16B0A6C10040A783 /* libAviarySDK.a */; };
+		06CD77BF16B0A6C10040A783 /* AviarySDKResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 06CD77BD16B0A6C10040A783 /* AviarySDKResources.bundle */; };
+		06CD77C716B185160040A783 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 06CD77C516B185160040A783 /* background.png */; };
+		06CD77C816B185160040A783 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 06CD77C616B185160040A783 /* logo.png */; };
+		06CD77CA16B186860040A783 /* border.png in Resources */ = {isa = PBXBuildFile; fileRef = 06CD77C916B186860040A783 /* border.png */; };
+		06CD78D316B30A150040A783 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06CD78D216B30A150040A783 /* SystemConfiguration.framework */; };
+		06CD796016B334830040A783 /* splash.png in Resources */ = {isa = PBXBuildFile; fileRef = 06CD795C16B334830040A783 /* splash.png */; };
+		06CD796116B334830040A783 /* splash@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 06CD795D16B334830040A783 /* splash@2x.png */; };
+		06CD796216B334830040A783 /* splash~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 06CD795E16B334830040A783 /* splash~ipad.png */; };
+		06CD796316B334830040A783 /* splash~ipad@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 06CD795F16B334830040A783 /* splash~ipad@2x.png */; };
+		06CD797116B33E7B0040A783 /* icon57.png in Resources */ = {isa = PBXBuildFile; fileRef = 06CD797016B33E7A0040A783 /* icon57.png */; };
+		06CD797416B33E830040A783 /* icon114.png in Resources */ = {isa = PBXBuildFile; fileRef = 06CD797316B33E830040A783 /* icon114.png */; };
+		06CD797616B33E8C0040A783 /* icon72.png in Resources */ = {isa = PBXBuildFile; fileRef = 06CD797516B33E8C0040A783 /* icon72.png */; };
+		06CD797816B33E910040A783 /* icon144.png in Resources */ = {isa = PBXBuildFile; fileRef = 06CD797716B33E910040A783 /* icon144.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		06CD767516B047030040A783 /* AviaryDemo-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AviaryDemo-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		06CD767916B047030040A783 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		06CD767B16B047030040A783 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		06CD767D16B047030040A783 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		06CD768116B047030040A783 /* AviaryDemo-iOS-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AviaryDemo-iOS-Info.plist"; sourceTree = "<group>"; };
+		06CD768316B047030040A783 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		06CD768516B047030040A783 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		06CD768716B047030040A783 /* AviaryDemo-iOS-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AviaryDemo-iOS-Prefix.pch"; sourceTree = "<group>"; };
+		06CD768816B047030040A783 /* AFAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFAppDelegate.h; sourceTree = "<group>"; };
+		06CD768916B047030040A783 /* AFAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFAppDelegate.m; sourceTree = "<group>"; };
+		06CD768B16B047030040A783 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = Resources/Default.png; sourceTree = "<group>"; };
+		06CD768D16B047030040A783 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "Resources/Default@2x.png"; sourceTree = "<group>"; };
+		06CD768F16B047030040A783 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "Resources/Default-568h@2x.png"; sourceTree = "<group>"; };
+		06CD76A816B047E60040A783 /* AFSDKDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFSDKDemoViewController.h; sourceTree = "<group>"; };
+		06CD76A916B047E60040A783 /* AFSDKDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFSDKDemoViewController.m; sourceTree = "<group>"; };
+		06CD76AD16B04ABD0040A783 /* Demo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Demo.png; sourceTree = "<group>"; };
+		06CD76AF16B04C120040A783 /* AFSDKDemoViewController_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AFSDKDemoViewController_iPhone.xib; sourceTree = "<group>"; };
+		06CD76B116B04C410040A783 /* AFSDKDemoViewController_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AFSDKDemoViewController_iPad.xib; sourceTree = "<group>"; };
+		06CD770C16B067260040A783 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		06CD771E16B08D930040A783 /* blue_button_pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = blue_button_pressed.png; path = "Resources/Button Backgrounds/blue_button_pressed.png"; sourceTree = "<group>"; };
+		06CD771F16B08D930040A783 /* blue_button_pressed@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "blue_button_pressed@2x.png"; path = "Resources/Button Backgrounds/blue_button_pressed@2x.png"; sourceTree = "<group>"; };
+		06CD772016B08D930040A783 /* blue_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = blue_button.png; path = "Resources/Button Backgrounds/blue_button.png"; sourceTree = "<group>"; };
+		06CD772116B08D930040A783 /* blue_button@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "blue_button@2x.png"; path = "Resources/Button Backgrounds/blue_button@2x.png"; sourceTree = "<group>"; };
+		06CD772216B08D930040A783 /* dark_button_pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = dark_button_pressed.png; path = "Resources/Button Backgrounds/dark_button_pressed.png"; sourceTree = "<group>"; };
+		06CD772316B08D930040A783 /* dark_button_pressed@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "dark_button_pressed@2x.png"; path = "Resources/Button Backgrounds/dark_button_pressed@2x.png"; sourceTree = "<group>"; };
+		06CD772416B08D930040A783 /* dark_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = dark_button.png; path = "Resources/Button Backgrounds/dark_button.png"; sourceTree = "<group>"; };
+		06CD772516B08D930040A783 /* dark_button@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "dark_button@2x.png"; path = "Resources/Button Backgrounds/dark_button@2x.png"; sourceTree = "<group>"; };
+		06CD772E16B092E80040A783 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		06CD773016B092EF0040A783 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		06CD773216B0930A0040A783 /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
+		06CD773416B093110040A783 /* libz.1.2.5.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.2.5.dylib; path = usr/lib/libz.1.2.5.dylib; sourceTree = SDKROOT; };
+		06CD773616B093190040A783 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		06CD773816B0931F0040A783 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		06CD773A16B093250040A783 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		06CD773C16B0932D0040A783 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		06CD77B416B0A6C10040A783 /* AFAviaryGLImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFAviaryGLImageView.h; sourceTree = "<group>"; };
+		06CD77B516B0A6C10040A783 /* AFPhotoEditorContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFPhotoEditorContext.h; sourceTree = "<group>"; };
+		06CD77B616B0A6C10040A783 /* AFPhotoEditorController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFPhotoEditorController.h; sourceTree = "<group>"; };
+		06CD77B716B0A6C10040A783 /* AFPhotoEditorControllerOptions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFPhotoEditorControllerOptions.h; sourceTree = "<group>"; };
+		06CD77B816B0A6C10040A783 /* AFPhotoEditorCustomization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFPhotoEditorCustomization.h; sourceTree = "<group>"; };
+		06CD77B916B0A6C10040A783 /* AFPhotoEditorSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFPhotoEditorSession.h; sourceTree = "<group>"; };
+		06CD77BA16B0A6C10040A783 /* AFPhotoEditorStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFPhotoEditorStyle.h; sourceTree = "<group>"; };
+		06CD77BB16B0A6C10040A783 /* libAviarySDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libAviarySDK.a; sourceTree = "<group>"; };
+		06CD77BD16B0A6C10040A783 /* AviarySDKResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AviarySDKResources.bundle; sourceTree = "<group>"; };
+		06CD77C516B185160040A783 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = background.png; path = "Resources/Background Images/background.png"; sourceTree = "<group>"; };
+		06CD77C616B185160040A783 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo.png; path = "Resources/Background Images/logo.png"; sourceTree = "<group>"; };
+		06CD77C916B186860040A783 /* border.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = border.png; path = "Resources/Background Images/border.png"; sourceTree = "<group>"; };
+		06CD78D216B30A150040A783 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		06CD795C16B334830040A783 /* splash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = splash.png; path = "Resources/Splash Images/splash.png"; sourceTree = "<group>"; };
+		06CD795D16B334830040A783 /* splash@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "splash@2x.png"; path = "Resources/Splash Images/splash@2x.png"; sourceTree = "<group>"; };
+		06CD795E16B334830040A783 /* splash~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "splash~ipad.png"; path = "Resources/Splash Images/splash~ipad.png"; sourceTree = "<group>"; };
+		06CD795F16B334830040A783 /* splash~ipad@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "splash~ipad@2x.png"; path = "Resources/Splash Images/splash~ipad@2x.png"; sourceTree = "<group>"; };
+		06CD797016B33E7A0040A783 /* icon57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon57.png; path = Resources/Icons/icon57.png; sourceTree = "<group>"; };
+		06CD797316B33E830040A783 /* icon114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon114.png; path = Resources/Icons/icon114.png; sourceTree = "<group>"; };
+		06CD797516B33E8C0040A783 /* icon72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon72.png; path = Resources/Icons/icon72.png; sourceTree = "<group>"; };
+		06CD797716B33E910040A783 /* icon144.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon144.png; path = Resources/Icons/icon144.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		06CD767216B047030040A783 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06CD78D316B30A150040A783 /* SystemConfiguration.framework in Frameworks */,
+				06CD773D16B0932D0040A783 /* OpenGLES.framework in Frameworks */,
+				06CD773B16B093260040A783 /* CoreText.framework in Frameworks */,
+				06CD773916B0931F0040A783 /* StoreKit.framework in Frameworks */,
+				06CD773716B093190040A783 /* QuartzCore.framework in Frameworks */,
+				06CD773516B093110040A783 /* libz.1.2.5.dylib in Frameworks */,
+				06CD773316B0930A0040A783 /* libsqlite3.0.dylib in Frameworks */,
+				06CD773116B092EF0040A783 /* CoreData.framework in Frameworks */,
+				06CD772F16B092E80040A783 /* Accelerate.framework in Frameworks */,
+				06CD770D16B067260040A783 /* AssetsLibrary.framework in Frameworks */,
+				06CD767A16B047030040A783 /* UIKit.framework in Frameworks */,
+				06CD767C16B047030040A783 /* Foundation.framework in Frameworks */,
+				06CD767E16B047030040A783 /* CoreGraphics.framework in Frameworks */,
+				06CD77BE16B0A6C10040A783 /* libAviarySDK.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		06CD766A16B047030040A783 = {
+			isa = PBXGroup;
+			children = (
+				06CD77B216B0A6C10040A783 /* AviarySDK */,
+				06CD767F16B047030040A783 /* AviaryDemo-iOS */,
+				06CD767816B047030040A783 /* Frameworks */,
+				06CD767616B047030040A783 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		06CD767616B047030040A783 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				06CD767516B047030040A783 /* AviaryDemo-iOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		06CD767816B047030040A783 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				06CD78D216B30A150040A783 /* SystemConfiguration.framework */,
+				06CD773C16B0932D0040A783 /* OpenGLES.framework */,
+				06CD773A16B093250040A783 /* CoreText.framework */,
+				06CD773816B0931F0040A783 /* StoreKit.framework */,
+				06CD773616B093190040A783 /* QuartzCore.framework */,
+				06CD773416B093110040A783 /* libz.1.2.5.dylib */,
+				06CD773216B0930A0040A783 /* libsqlite3.0.dylib */,
+				06CD773016B092EF0040A783 /* CoreData.framework */,
+				06CD772E16B092E80040A783 /* Accelerate.framework */,
+				06CD770C16B067260040A783 /* AssetsLibrary.framework */,
+				06CD767916B047030040A783 /* UIKit.framework */,
+				06CD767B16B047030040A783 /* Foundation.framework */,
+				06CD767D16B047030040A783 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		06CD767F16B047030040A783 /* AviaryDemo-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				06CD768816B047030040A783 /* AFAppDelegate.h */,
+				06CD768916B047030040A783 /* AFAppDelegate.m */,
+				06CD768016B047030040A783 /* Supporting Files */,
+				06CD76A816B047E60040A783 /* AFSDKDemoViewController.h */,
+				06CD76A916B047E60040A783 /* AFSDKDemoViewController.m */,
+				06CD76AF16B04C120040A783 /* AFSDKDemoViewController_iPhone.xib */,
+				06CD76B116B04C410040A783 /* AFSDKDemoViewController_iPad.xib */,
+			);
+			path = "AviaryDemo-iOS";
+			sourceTree = "<group>";
+		};
+		06CD768016B047030040A783 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				06CD797916B33E980040A783 /* Icons */,
+				06CD795A16B334750040A783 /* Splash Images */,
+				06CD771D16B08A3D0040A783 /* Button Backgrounds */,
+				06CD770E16B086400040A783 /* Background Images */,
+				06CD76AD16B04ABD0040A783 /* Demo.png */,
+				06CD768116B047030040A783 /* AviaryDemo-iOS-Info.plist */,
+				06CD768216B047030040A783 /* InfoPlist.strings */,
+				06CD768516B047030040A783 /* main.m */,
+				06CD768716B047030040A783 /* AviaryDemo-iOS-Prefix.pch */,
+				06CD768B16B047030040A783 /* Default.png */,
+				06CD768D16B047030040A783 /* Default@2x.png */,
+				06CD768F16B047030040A783 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		06CD770E16B086400040A783 /* Background Images */ = {
+			isa = PBXGroup;
+			children = (
+				06CD77C916B186860040A783 /* border.png */,
+				06CD77C516B185160040A783 /* background.png */,
+				06CD77C616B185160040A783 /* logo.png */,
+			);
+			name = "Background Images";
+			sourceTree = "<group>";
+		};
+		06CD771D16B08A3D0040A783 /* Button Backgrounds */ = {
+			isa = PBXGroup;
+			children = (
+				06CD771E16B08D930040A783 /* blue_button_pressed.png */,
+				06CD771F16B08D930040A783 /* blue_button_pressed@2x.png */,
+				06CD772016B08D930040A783 /* blue_button.png */,
+				06CD772116B08D930040A783 /* blue_button@2x.png */,
+				06CD772216B08D930040A783 /* dark_button_pressed.png */,
+				06CD772316B08D930040A783 /* dark_button_pressed@2x.png */,
+				06CD772416B08D930040A783 /* dark_button.png */,
+				06CD772516B08D930040A783 /* dark_button@2x.png */,
+			);
+			name = "Button Backgrounds";
+			sourceTree = "<group>";
+		};
+		06CD77B216B0A6C10040A783 /* AviarySDK */ = {
+			isa = PBXGroup;
+			children = (
+				06CD77B316B0A6C10040A783 /* Headers */,
+				06CD77BB16B0A6C10040A783 /* libAviarySDK.a */,
+				06CD77BC16B0A6C10040A783 /* Resources */,
+			);
+			path = AviarySDK;
+			sourceTree = "<group>";
+		};
+		06CD77B316B0A6C10040A783 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				06CD77B416B0A6C10040A783 /* AFAviaryGLImageView.h */,
+				06CD77B516B0A6C10040A783 /* AFPhotoEditorContext.h */,
+				06CD77B616B0A6C10040A783 /* AFPhotoEditorController.h */,
+				06CD77B716B0A6C10040A783 /* AFPhotoEditorControllerOptions.h */,
+				06CD77B816B0A6C10040A783 /* AFPhotoEditorCustomization.h */,
+				06CD77B916B0A6C10040A783 /* AFPhotoEditorSession.h */,
+				06CD77BA16B0A6C10040A783 /* AFPhotoEditorStyle.h */,
+			);
+			path = Headers;
+			sourceTree = "<group>";
+		};
+		06CD77BC16B0A6C10040A783 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				06CD77BD16B0A6C10040A783 /* AviarySDKResources.bundle */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		06CD795A16B334750040A783 /* Splash Images */ = {
+			isa = PBXGroup;
+			children = (
+				06CD795C16B334830040A783 /* splash.png */,
+				06CD795D16B334830040A783 /* splash@2x.png */,
+				06CD795E16B334830040A783 /* splash~ipad.png */,
+				06CD795F16B334830040A783 /* splash~ipad@2x.png */,
+			);
+			name = "Splash Images";
+			sourceTree = "<group>";
+		};
+		06CD797916B33E980040A783 /* Icons */ = {
+			isa = PBXGroup;
+			children = (
+				06CD797716B33E910040A783 /* icon144.png */,
+				06CD797516B33E8C0040A783 /* icon72.png */,
+				06CD797316B33E830040A783 /* icon114.png */,
+				06CD797016B33E7A0040A783 /* icon57.png */,
+			);
+			name = Icons;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		06CD767416B047030040A783 /* AviaryDemo-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 06CD769C16B047030040A783 /* Build configuration list for PBXNativeTarget "AviaryDemo-iOS" */;
+			buildPhases = (
+				06CD77A616B096B00040A783 /* Run Script */,
+				06CD767116B047030040A783 /* Sources */,
+				06CD767216B047030040A783 /* Frameworks */,
+				06CD767316B047030040A783 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AviaryDemo-iOS";
+			productName = "AviaryDemo-iOS";
+			productReference = 06CD767516B047030040A783 /* AviaryDemo-iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		06CD766C16B047030040A783 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = AF;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = Aviary;
+			};
+			buildConfigurationList = 06CD766F16B047030040A783 /* Build configuration list for PBXProject "AviaryDemo-iOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 06CD766A16B047030040A783;
+			productRefGroup = 06CD767616B047030040A783 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				06CD767416B047030040A783 /* AviaryDemo-iOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		06CD767316B047030040A783 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06CD768416B047030040A783 /* InfoPlist.strings in Resources */,
+				06CD768C16B047030040A783 /* Default.png in Resources */,
+				06CD768E16B047030040A783 /* Default@2x.png in Resources */,
+				06CD769016B047030040A783 /* Default-568h@2x.png in Resources */,
+				06CD76AE16B04ABD0040A783 /* Demo.png in Resources */,
+				06CD76B016B04C120040A783 /* AFSDKDemoViewController_iPhone.xib in Resources */,
+				06CD76B216B04C410040A783 /* AFSDKDemoViewController_iPad.xib in Resources */,
+				06CD772616B08D930040A783 /* blue_button_pressed.png in Resources */,
+				06CD772716B08D930040A783 /* blue_button_pressed@2x.png in Resources */,
+				06CD772816B08D930040A783 /* blue_button.png in Resources */,
+				06CD772916B08D930040A783 /* blue_button@2x.png in Resources */,
+				06CD772A16B08D930040A783 /* dark_button_pressed.png in Resources */,
+				06CD772B16B08D930040A783 /* dark_button_pressed@2x.png in Resources */,
+				06CD772C16B08D930040A783 /* dark_button.png in Resources */,
+				06CD772D16B08D930040A783 /* dark_button@2x.png in Resources */,
+				06CD77BF16B0A6C10040A783 /* AviarySDKResources.bundle in Resources */,
+				06CD77C716B185160040A783 /* background.png in Resources */,
+				06CD77C816B185160040A783 /* logo.png in Resources */,
+				06CD77CA16B186860040A783 /* border.png in Resources */,
+				06CD796016B334830040A783 /* splash.png in Resources */,
+				06CD796116B334830040A783 /* splash@2x.png in Resources */,
+				06CD796216B334830040A783 /* splash~ipad.png in Resources */,
+				06CD796316B334830040A783 /* splash~ipad@2x.png in Resources */,
+				06CD797116B33E7B0040A783 /* icon57.png in Resources */,
+				06CD797416B33E830040A783 /* icon114.png in Resources */,
+				06CD797616B33E8C0040A783 /* icon72.png in Resources */,
+				06CD797816B33E910040A783 /* icon144.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		06CD77A616B096B00040A783 /* Run Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Run Script";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if [[ -f \"${SRCROOT}/AviarySDKBuildScript.sh\" ]]\nthen\nsh \"${SRCROOT}/AviarySDKBuildScript.sh\"\nfi";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		06CD767116B047030040A783 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06CD768616B047030040A783 /* main.m in Sources */,
+				06CD768A16B047030040A783 /* AFAppDelegate.m in Sources */,
+				06CD76AA16B047E60040A783 /* AFSDKDemoViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		06CD768216B047030040A783 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				06CD768316B047030040A783 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		06CD769A16B047030040A783 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		06CD769B16B047030040A783 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		06CD769D16B047030040A783 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AviaryDemo-iOS/AviaryDemo-iOS-Prefix.pch";
+				INFOPLIST_FILE = "AviaryDemo-iOS/AviaryDemo-iOS-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/AviarySDK\"",
+				);
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-Objc",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		06CD769E16B047030040A783 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AviaryDemo-iOS/AviaryDemo-iOS-Prefix.pch";
+				INFOPLIST_FILE = "AviaryDemo-iOS/AviaryDemo-iOS-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/AviarySDK\"",
+				);
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-Objc",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		06CD766F16B047030040A783 /* Build configuration list for PBXProject "AviaryDemo-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06CD769A16B047030040A783 /* Debug */,
+				06CD769B16B047030040A783 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		06CD769C16B047030040A783 /* Build configuration list for PBXNativeTarget "AviaryDemo-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06CD769D16B047030040A783 /* Debug */,
+				06CD769E16B047030040A783 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 06CD766C16B047030040A783 /* Project object */;
+}
